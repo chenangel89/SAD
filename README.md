@@ -1,2 +1,2 @@
-# Web3 技能樹
+# Web3
 https://gitmind.com/app/docs/ma0tsnuy
