@@ -1,7 +1,7 @@
 # Web3 架構
 [心智圖](https://gitmind.com/app/docs/ma0tsnuy)
 
-# ChatGPT建議的60天學習規劃
+* ChatGPT建議的60天學習規劃
 [學習規劃](https://github.com/chenangel89/SAD/blob/main/chatgpt_recommend.md)
 
 # Web3 學習ing
