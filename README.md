@@ -4,7 +4,7 @@
 * [ChatGPT建議的60天學習規劃](https://github.com/chenangel89/SAD/blob/main/chatgpt_recommend.md)
 
 # Web3 學習ing
-[學習筆記](https://github.com/chenangel89/SAD/blob/main/web3%20start%20learning.md)
+* [學習筆記](https://github.com/chenangel89/SAD/blob/main/web3%20start%20learning.md)
 
 # 學習通道
 * 各種官方文件檔
