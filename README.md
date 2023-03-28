@@ -1,4 +1,4 @@
-✏# Web3 架構
+# ✏ Web3 架構
 * [心智圖](https://gitmind.com/app/docs/ma0tsnuy)
 
 * [ChatGPT建議的60天學習規劃](https://github.com/chenangel89/SAD/blob/main/chatgpt_recommend.md)
@@ -12,7 +12,7 @@
 * iT 邦幫忙技術文章、公開的學習筆記
 * Coursera、Udemy、edX上的線上課程等
 
-📘 # 往後可能參考資料
+# 📘 往後可能參考資料
 
 ## Html css javascript
 * [一趟30天網頁設計的學習冒險](https://ithelp.ithome.com.tw/users/20151470/ironman/5658?page=3)
