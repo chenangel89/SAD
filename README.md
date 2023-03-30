@@ -2,6 +2,7 @@
 * [心智圖](https://gitmind.com/app/docs/ma0tsnuy)
 
 * [ChatGPT建議的60天學習規劃](https://github.com/chenangel89/SAD/blob/main/chatgpt_recommend.md)
+* <a href="https://drive.google.com/file/d/1fVIOfzghLxCgdfLHIXDEjJFVBh5hwXDE/view?usp=sharing" target="_blank">作業1</a>
 
 * [作業1](https://drive.google.com/file/d/1fVIOfzghLxCgdfLHIXDEjJFVBh5hwXDE/view?usp=sharing)
 
