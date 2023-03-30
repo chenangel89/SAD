@@ -10,7 +10,7 @@
 
 
 
-# 🔑 學習通道
+# 🔑 學習管道
 * 各種官方文件檔、google、chatgpt
 * youtube、kryptocamp、Bilibili...上的任何教學影片
 * iT 邦幫忙技術文章、github、hackMD、CSDN博客等公開的學習筆記
