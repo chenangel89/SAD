@@ -3,11 +3,7 @@
 
 * [ChatGPT建議的60天學習規劃](https://github.com/chenangel89/SAD/blob/main/chatgpt_recommend.md)
 
-* [作業1](https://youtu.be/o2qFverDg3M)
-
-{%youtube laEqXy9cjs0 %}
-
-{%youtube nvtpVwiyPmU%}
+* [作業1](https://youtu.be/o2qFverDg3M](https://www.youtube.com/watch?v=nvtpVwiyPmU)
 
 # 📖 Web3 學習ing
 * [學習筆記](https://github.com/chenangel89/SAD/blob/main/web3%20start%20learning.md)
