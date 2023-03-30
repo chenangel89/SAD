@@ -1,4 +1,4 @@
-# 學習筆記
+# [學習筆記](https://hackmd.io/aUM4r9ZfTrmxu8W2UY606w?both)
 ## 1. Command Line
 常用的 Windows 終端機命令程式
 
