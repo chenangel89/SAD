@@ -5,6 +5,8 @@
 
 * [作業1](https://youtu.be/o2qFverDg3M)
 
+{%youtube laEqXy9cjs0 %}
+
 {%youtube nvtpVwiyPmU%}
 
 # 📖 Web3 學習ing
