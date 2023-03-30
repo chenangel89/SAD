@@ -5,7 +5,7 @@
 
 * [作業1](https://youtu.be/o2qFverDg3M)
 
-{% nvtpVwiyPmU %}
+{%youtube nvtpVwiyPmU%}
 
 # 📖 Web3 學習ing
 * [學習筆記](https://github.com/chenangel89/SAD/blob/main/web3%20start%20learning.md)
