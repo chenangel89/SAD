@@ -1,4 +1,5 @@
 # [學習筆記](https://hackmd.io/aUM4r9ZfTrmxu8W2UY606w?both)
+# 學習筆記
 ## 1. Command Line
 常用的 Windows 終端機命令程式
 
@@ -408,16 +409,27 @@ GET方法會將表單數據作為URL的一部分發送到伺服器端。這通�
 
 #### VS Code小插播
 <div style="background-color: antiquewhite;">
-<h4>● 在VS Code裡開一個類別為article的div，可打.article後生成</h6>
+<h4>● 要開一個類別為article的div，可打.article後生成</h6>
 <img src="https://i.imgur.com/oRYzhCh.png">
 <br><br>
 <img src="https://i.imgur.com/7nZwZ57.png">
 <br><br>
 <h4>● 在VS Code裡要指定css的來源，可打link後選link.css</h4>
 <img src="https://i.imgur.com/FDkyEjC.png">
+<h4>● 要新增指定數量個列表</h4>
+    
+![](https://i.imgur.com/ET5ewFN.png)
+
+![](https://i.imgur.com/QrOiI8I.png)
+
+    
 </div>
 
 #### margin & padding
+<img src="https://miro.medium.com/freeze/fit/c/80/56/1*L5bN2lty8lg5F50PTo4jtw.gif"> 
+
+<br>
+
 margin指的是元素與其他元素之間的空間，是外邊距。我們可以使用以下的屬性值對margin進行控制：
 * margin-top：設置元素上方的外邊距
 * margin-right：設置元素右邊的外邊距
@@ -430,23 +442,228 @@ padding指的是元素內部和邊框之間的空間，是內邊距。我們可�
 * padding：一次性設置所有邊的內邊距，按照順序分別為上、右、下、左
 ```css!
 <h5 style="padding: 5px 5px 5px 300px">
-    padding setting
+    padding setting1
 </h5>
 ```
 <h5 style="padding: 5px 5px 5px 300px">
-    padding setting
+    padding setting1
 </h5>
 
+```typescript!
+/* 上下邊距 左右邊距 */
+<h5 style="padding: 5px 10px">
+    padding setting2
+</h5>
+
+/* 上邊距 左右邊距 下邊距 */
+<h5 style="padding: 5px 10px 10px">
+    padding setting3
+</h5>
+```
+![](https://i.imgur.com/HFpipxt.png)
+
+```css!
+.box{
+  border-top: firebrick dotted;
+  border-bottom: royalblue double;
+  border-left: gold dashed;
+  border-right: silver solid;
+  padding: 15px;
+  border-width: 5px;
+  margin: 25px;
+  border-radius: 40px;
+}
+
+```
+
+#### color
+* 字詞：royalblue、gold、silver、darkgreen、springgreen
+<span style="color: royalblue">royalblue、</span>
+<span style="color: gold">gold、</span>
+<span style="color: silver">silver、</span>
+<span style="color: darkred">darkred、</span>
+<span style="color: springgreen">springgreen</span>
+
+* 十六進位制：#B15BFF
+<h5 style="color: #B15BFF">#B15BFF</h5>
+
+* rgb
+<h5 style="color: rgb(10,100,255)"> rgb(10,100,255) </h5>
+
+* rgba
+<h5 style="color: rgba(10,100,255,0.5)"> rgba(10,100,255,0.5) </h5>
+
+#### font-family
+* 標楷體(DFKai-sb)、微軟正黑體(Microsoft JhengHei)、monospace font、Times New Romance
+
+<span style="font-family:DFKai-sb;">標楷體、</span>
+<span style="font-family:Microsoft JhengHei;">微軟正黑體、</span>
+<span style="font-family:monospace;">monospace font、</span>
+<span style="font-family:TimesNewRomance;">Times New Romance</span>
+
+* serif(有襯線)、sans-serif(無襯線)
+
+<img src="https://i.imgur.com/11MRVVV.png" style="width: 20vw"> 
+
+<br>
+
+* font-style、text-decoration、text-transform、letter-spacing、word-spacing
+
+```css!
+.box h1{
+  font-family: serif;
+  font-style: italic; /* 斜體 */
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;/* 字間距 */
+  word-spacing: 0.5em;/* 詞間距 */
+}
+```
+![](https://i.imgur.com/5rL8Pmv.png)
+
+* 字行高
+```css!
+body{
+  background-color: #f4f4f4;
+  color: #555555;
+  line-height: 1.5em; /* 字行高 */
+}
+```
+![](https://i.imgur.com/RHokoLB.png)
+
+* 更換list圖示
+* list-style: circle(square、none、lower-alpha...);
+```css!
+.list{
+  list-style-image: url(https://i.imgur.com/TIK5BH9.png);
+}
+```
+![](https://i.imgur.com/Xe2C5TA.png)  
+(圖片大小0.3*0.3)
+
+* list 選擇器
+```css!
+.li2 li:nth-child(odd){
+  color: gold;
+  /*  陰影 往右 往下 寬度(越寬顏色會越淡)  */
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
+}
+
+.li2 li:nth-child(2){
+  color: red;
+  font-weight: bold;
+}
+```
+![](https://i.imgur.com/4cxJoY0.png)
 
 
+* 按鈕
 
+```css!
+button {
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 5px;
+    margin: 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: royalblue;
+    cursor: pointer;
+}
 
+button:hover{
+  background-color: darkblue;
+}
 
+button:active{
+  background-color: lightblue;
+}
+```
+![](https://i.imgur.com/OspCluN.png)
 
+* 超鏈結
+```css!
+a{
+  /*  底線設為無  */ 
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+}
 
+a:hover{
+  color: gray;
+}
 
+a:visited{
+  /* 網址被訪問後  */
+  color: gold;
+}
 
+```
+![](https://i.imgur.com/5HWUhfs.png)
+![](https://i.imgur.com/FXQ0uvI.png)
 
+* 浮動box(平分)
+```css!
+.box{
+  float: left;
+  width: 30%;
+  box-sizing: border-box;
+}
+```
+![](https://i.imgur.com/Dh0Vmfu.png)
+
+* 浮動box(主副)
+
+![](https://i.imgur.com/HLywVrO.png)
+
+* 清除浮動
+```htmlembedded!
+<div class="clfix"></div>
+```
+```css!
+.clfix{
+  clear: both;
+}
+```
+
+* position(absolute、relative) ---- 在父關係的position沒有設定為relative時，子關係若設定 position: absolute，其固定關係會跟著整個頁面改變
+```css!
+.box2{
+  width: 200px;
+  height: 200px;
+  border: gold 3px solid;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.box2 h1{
+  position: absolute;
+  top: 80px;
+}
+
+.box2 h2{
+  position: absolute;
+  right: 30px;
+}
+```
+<img src="https://i.imgur.com/5RjKvFs.png" style="width: 20vw">
+
+* position(fixed) ---- 固定在頁面的某個位置
+```css!
+#fixed{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+```
+![](https://i.imgur.com/L60Swxp.png)
+
+![](https://i.imgur.com/e3mP347.png)
+
+  
 
 
 <hr>
@@ -536,4 +753,6 @@ if __name__ == "__main__":
 ##### - Deploy site
 ![](https://i.imgur.com/BmYdgEY.png)
 ##### - [成功部署網站](https://eclectic-banoffee-be8e2c.netlify.app/)
+
+
 
