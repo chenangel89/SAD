@@ -15,7 +15,7 @@
 * youtube、kryptocamp、Bilibili...上的任何教學影片
 * iT 邦幫忙技術文章、github、hackMD、CSDN博客等公開的學習筆記
 * Coursera、Udemy、edX上的線上課程等
-* [PecuLab WEB3 LiveCoding](https://www.youtube.com/watch?v=0rlY6WUtrAY&list=PLH3VeiMX0ckiCqHLpLIBOMXQRtF_Vs3Eo&index=1)
+* [PecuLab WEB3 LiveCoding]([https://www.youtube.com/watch?v=0rlY6WUtrAY&list=PLH3VeiMX0ckiCqHLpLIBOMXQRtF_Vs3Eo&index=1](https://www.youtube.com/playlist?list=PLH3VeiMX0ckiCqHLpLIBOMXQRtF_Vs3Eo))
 
 
 # 📘 往後可能參考資料
